@@ -58,13 +58,13 @@ function check(){
         document.getElementById("player_question").innerHTML = "question_turn - " + player1_name;
 
     }
-    if (answer_turn = "player1"){
-        answer_turn ="player2";
+    if (answer_turn = "player2"){
+        answer_turn ="player1";
         document.getElementById("player_answer").innerHTML = "answer_turn - " + player2_name;
 
     }
     else{
-        answer_turn = "player1";
+        answer_turn = "player2";
         document.getElementById("player_answer").innerHTML = "answer_turn - " + player1_name;
 
     }
