@@ -37,25 +37,25 @@ function check(){
     get_answer = parseInt(answer);
     if (get_answer == actual_answer)
     {
-       if (answer_turn = "player1")
+       if (answer_turn = "player2")
        {
-           update_player1_score = player1_score + 1;
-           document.getElementById("player1_score").innerHTML = update_player1_score;
+           update_player2_score = player2_score + 1;
+           document.getElementById("player2_score").innerHTML = update_player2_score;
        }
        else
        {
-        update_player2_score = player2_score + 1;
-        document.getElementById("player2_score").innerHTML = update_player2_score;
+        update_player1_score = player1_score + 1;
+        document.getElementById("player1_score").innerHTML = update_player1_score;
        }
 
        if (question_turn = "player1"){
         question_turn ="player2";
-        document.getElementById("player_question").innerHTML = "question_turn - " + player2_name;
+        document.getElementById("player_question").innerHTML = "question_turn - " + player1_name;
 
     }
     else{
         question_turn = "player1";
-        document.getElementById("player_question").innerHTML = "question_turn - " + player1_name;
+        document.getElementById("player_question").innerHTML = "question_turn - " + player2_name;
 
     }
     if (answer_turn = "player2"){
