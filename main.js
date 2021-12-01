@@ -29,8 +29,8 @@ function send(){
 
 }
 
-question_turn = "player1";
-answer_turn = "player2";
+question_turn = "player2";
+answer_turn = "player1";
 
 function check(){
     answer = document.getElementById("input_check_box").value;
