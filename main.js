@@ -29,8 +29,8 @@ function send(){
 
 }
 
-question_turn = "player2";
-answer_turn = "player1";
+question_turn = "player1";
+answer_turn = "player2";
 
 function check(){
     answer = document.getElementById("input_check_box").value;
@@ -48,14 +48,14 @@ function check(){
         document.getElementById("player1_score").innerHTML = update_player1_score;
        }
 
-       if (question_turn = "player1"){
-        question_turn ="player2";
-        document.getElementById("player_question").innerHTML = "question_turn - " + player1_name;
+       if (question_turn = "player2"){
+        question_turn ="player1";
+        document.getElementById("player_question").innerHTML = "question_turn - " + player2_name;
 
     }
     else{
-        question_turn = "player1";
-        document.getElementById("player_question").innerHTML = "question_turn - " + player2_name;
+        question_turn = "player2";
+        document.getElementById("player_question").innerHTML = "question_turn - " + player1_name;
 
     }
     if (answer_turn = "player2"){
